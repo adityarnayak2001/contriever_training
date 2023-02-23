@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>My form</title>
+        <style>
+            * {
+                    color: #b6b6b6
+                }
+                .form-body{
+                    top: 50%;
+                    border: 3px rgb(16, 33, 75) solid;    
+                    padding: 20px;
+                    margin: auto;
+                    margin-top: 10%;
+                    display: table;
+                    width: 20%;
+                }
+                input{
+                    background: rgba(104, 147, 226, 0.1);
+                }
+                textarea{
+                    background: rgba(46, 79, 102, 0.1);
+                }
+                #submits{
+                    background-color: white; 
+                    border-radius: 10px; 
+                    height: 30px;
+                    width: 90px;
+                    color: black;
+                }
+                .input{
+                    float: right;
+                }
+        </style>
+    </head>
+    <body style="background-image: url(./wallpaperflare.com_wallpaper\(1\).jpg);">
+        <div class="form-body">
+            <h2>Sign-Up</h2>
+            <form align="center" method="post" action="./web1.html" autocomplete="off">
+                <label for="username">Username </label>
+                <input class="input" type="text" id="username" required maxlength="5"><br><br>
+
+                <label for="password">Create Password </label>
+                <input class="input" type="password" id="password" required><br><br>
+
+                <label for="Pno">Enter phone no </label>
+                <input class="input" type="tel" id="Pno" size="20"><br><br>
+
+                <label for="DOB">DOB</label>
+                <input class="input" type="date" id="DOB" name="date" style="margin-right: 9%;"></input><br><br>
+
+                <label for="email">Mail Id </label>
+                <input class="input" type="email" id="email"><br><br>
+
+                <label for="Radio group">Gender: </label>  
+                <div class="input" style="margin-right: 28%;">
+                    <input type="radio" name="gender">Male</input><br>
+                    <input  type="radio" name="gender">Female</input>    
+                </div> <br><br><br>    
+                <input type="submit" name="submit" value="submit" id="submits" style="margin-left: 12%;">
+                <input class="input" type="reset" name="reset" value="reset" id="submits" style="margin-right: 12%;">          
+ 
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+* {
+    color: #b6b6b6
+  }
+.form-body{
+    border: 3px rgb(16, 33, 75) solid;    
+    display: inline-block;
+    padding: 30px;
+    margin: auto;
+    display: table;
+}
+input{
+    background: rgba(104, 147, 226, 0.1);
+}
+textarea{
+    background: rgba(46, 79, 102, 0.1);
+}
+#submits{
+    background-color: white; 
+    border-radius: 10px; 
+    height: 30px;
+    width: 90px;
+    color: black;
+}
