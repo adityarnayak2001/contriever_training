@@ -55,9 +55,21 @@
     width: 300px;
     margin: 100px;
     text-align: center;
+    
 }
 .cards > img{
     height: 200px;
     width: auto;
     margin: 10px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+}
+.product-price{
+    margin-top: auto;
+    margin-bottom: 10px;
+    font-size: xx-large;
+    font-weight: bold;
 }
