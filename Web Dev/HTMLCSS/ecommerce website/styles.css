@@ -39,15 +39,14 @@
     background-size: cover;
   display: flex;
   flex-direction: row;
-  height: 100%;
+  height: 800px;
   width: 100%;
 }
 .background-2{
     background-image: url("./2202_w039_n003_110b_p1_110.jpg");
-    background-size: contain;
-    height: 100%;
+    background-size: cover;
+    height: 700px;
     width: 100%;
-
 }
 .cards{
     background-color: rgb(210, 228, 245);
@@ -55,7 +54,6 @@
     width: 300px;
     margin: 100px;
     text-align: center;
-    
 }
 .cards > img{
     height: 200px;
