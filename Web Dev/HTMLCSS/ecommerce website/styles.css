@@ -50,7 +50,7 @@
 }
 .cards{
     background-color: rgb(210, 228, 245);
-    height: 500px;
+    height: 400px;
     width: 300px;
     margin: 100px;
     text-align: center;
@@ -63,7 +63,7 @@
 .product{
     display: flex;
     flex-direction: column;
-    height: 280px;
+    height: 180px;
 }
 .product-price{
     margin-top: auto;
@@ -71,3 +71,10 @@
     font-size: xx-large;
     font-weight: bold;
 }
+<<<<<<< Updated upstream
+=======
+
+.rating{
+    margin-top: 10px;
+}
+>>>>>>> Stashed changes
